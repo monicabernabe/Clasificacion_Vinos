@@ -1,0 +1,13 @@
+# Importar librerías
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import sys
+
+# Cargar datos
+def load_data(data):
+    try:
+        df_wine = pd.read_csv(data)
+    except FileNotFoundError:
+        print("Error: No se encontró el archivo '00 - wine-clustering.csv'.")
+        sys.exit()
