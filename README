@@ -125,7 +125,7 @@ Se han obtenido tres grupos principales con las siguientes características:
 ## Ejecución Local
 
 1. Clona el repositorio:
-   git clone https://github.com/monicabernabe/Clasificacion_Vinos/tree/main
+   git clone https://github.com/monicabernabe/Clasificacion_Vinos.git
    
 2. Instala las dependencias:
   pip install -r requirements.txt
